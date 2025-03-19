@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>John Gonsalves | Front-End Developer</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo">John Gonsalves</div>
+      <nav>
+        <ul>
+          <li href="#home"></li>
+          <li href="#about"></li>
+          <li href="#skills"></li>
+          <li href="#projects"></li>
+          <li href="#contact"></li>
+        </ul>
+      </nav>
+      <div class="hamburger">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+    </header>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <h1>Hi, I'm <span class="highlight">John Gonsalves</span></h1>
+        <h2>Front-End Developer</h2>
+        <p>I build responsive, user-friendly web experiences</p>
+        <a href="#contact" class="btn">Get in Touch</a>
+      </div>
+    </section>
+    <section id="about" class="about">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>
+            I'm a front-end developer passionate about creating interactive
+            applications and experiences on the web. I'm currently focusing on
+            building responsive, accessible web applications with HTML, CSS, and
+            JavaScript.
+          </p>
+          <p>
+            When I'm not coding, you can find me reading books,playing Video
+            Games.
+          </p>
+        </div>
+        <div class="about-image">
+          <div class="image-placeholder">ill update it later</div>
+        </div>
+      </div>
+    </section>
+    <section id="skills" class="skills">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-container">
+        <div class="skill-card">
+          <h3>HTML</h3>
+          <div class="skill-level" data-level="80%"></div>
+        </div>
+        <div class="skill-card">
+          <h3>CSS</h3>
+          <div class="skill-level" data-level="80%"></div>
+        </div>
+        <div class="skill-card">
+          <h3>JavaScript</h3>
+          <div class="skill-level" data-level="80%"></div>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="projects">
+      <h2 class="section-title">My Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <h3>Coming Soon!</h3>
+          <p>Check back for my upcoming projects.</p>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="contact">
+      <h2 class="section-title">Get In Touch</h2>
+      <div class="contact-container">
+        <form id="contact-form">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea name="message" id="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+    </section>
+    <footer>
+      <p>&copy; 2025 John Gonsalves. All Rights Reserved</p>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
